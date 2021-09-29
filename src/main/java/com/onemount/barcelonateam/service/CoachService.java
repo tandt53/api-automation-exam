@@ -47,7 +47,7 @@ public class CoachService {
         substituteHistory.clear();
 
         if (teamPattern.length() != 3)
-            throw new TeamException("Invalid team pattern", "Pattern's length must be 3");
+            throw new TeamException("Invalid team pattern", "Pattern's length must be equals 3");
 
         int gkNum = 1; // always
         int dfNum = convertToInt(teamPattern.substring(0, 1));

@@ -20,6 +20,6 @@ Sử dụng cucumber để tạo test case cho kịch bản sau
 | ----- | ------------------------- | --------------------------------------------------------- | 
 | 1     | Get danh sách các cầu thủ | Response trả về kết quả 22 cầu thủ                        |
 | 2     | Tạo team                  | Response trả về 11 cầu thủ với đội hình DEFAULT là 442    | 
-| 3     | Thay người hợp lệ 5 lần   | Kết quả trả về đội hình hiện tại và lịch sử thay người    | 
+| 3     | Thay người hợp lệ 5 lần   | Số áo cầu thủ ra sân và vị trí cầu thủ vào sân bất kỳ. <br> Kết quả trả về đội hình hiện tại và lịch sử thay người. <br> Để thay người hợp lệ nên kiểm tra số cầu thủ ở vị trí     | 
 | 4     | Kết thúc trận đấu         | Không có cầu thủ nào đang chơi                            |
 
